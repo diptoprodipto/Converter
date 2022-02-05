@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#2E2E2E"
+    >
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/NameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Prodipto Roy Dipto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/IdId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: 172-15-9689"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:id="@+id/ConButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="converter"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+</LinearLayout>
